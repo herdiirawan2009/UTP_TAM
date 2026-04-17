@@ -193,7 +193,7 @@ fun FeaturedComicCard(item: UTP, navController: NavController) {
                 horizontalArrangement = Arrangement.spacedBy(8.dp)
             ) {
                 Button(
-                    onClick = { /* Handle click */ },
+                    onClick = {},
                     colors = ButtonDefaults.buttonColors(containerColor = Color.White),
                     shape = RoundedCornerShape(8.dp),
                     modifier = Modifier.weight(1f)
@@ -202,7 +202,7 @@ fun FeaturedComicCard(item: UTP, navController: NavController) {
                 }
                 
                 OutlinedButton(
-                    onClick = { /* Handle click */ },
+                    onClick = { },
                     border = BorderStroke(1.dp, Color.White),
                     colors = ButtonDefaults.outlinedButtonColors(contentColor = Color.White),
                     shape = RoundedCornerShape(8.dp),
