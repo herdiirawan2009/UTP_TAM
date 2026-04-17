@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -202,7 +203,7 @@ fun FeaturedComicCard(item: UTP, navController: NavController) {
                 
                 OutlinedButton(
                     onClick = { /* Handle click */ },
-                    border = ButtonDefaults.outlinedButtonBorder.copy(width = 1.dp),
+                    border = BorderStroke(1.dp, Color.White),
                     colors = ButtonDefaults.outlinedButtonColors(contentColor = Color.White),
                     shape = RoundedCornerShape(8.dp),
                     modifier = Modifier.weight(1f)
@@ -285,12 +286,6 @@ fun DetailUTPScreen(item: UTP, navController: NavController) {
                 text = item.deskripsi, 
                 style = MaterialTheme.typography.bodyLarge,
                 color = Color.DarkGray
-            )
-            Spacer(modifier = Modifier.height(16.dp))
-            Text(
-                text = "Harga: Rp ${item.harga}",
-                style = MaterialTheme.typography.titleMedium,
-                color = MaterialTheme.colorScheme.primary
             )
         }
     }

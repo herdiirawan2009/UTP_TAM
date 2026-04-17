@@ -4,12 +4,40 @@ import com.example.utp_tam.R
 
 object UTPSource {
     val listData = listOf(
-        UTP("lookism", "aku adalah jonggun ", 10000, R.drawable.webtoon1),
-        UTP("killerpertter", "zzzzz", 12000, R.drawable.webtoon2),
-        UTP("sololeveling", "the underated", 10000, R.drawable.webtoon3),
-        UTP("kimi no nawa", "udinn", 12000, R.drawable.webtoon4),
-        UTP("ceo mbg", "Aku Adalah Raja Sawit", 12000, R.drawable.webtoon5),
-        UTP("one piece", "Bestt ni man", 10000, R.drawable.webtoon6),
-        UTP("oslo", "yntkts", 12000, R.drawable.webtoon7)
+        UTP(
+            nama = "Return of the Sword Master 2",
+            deskripsi = "Penebusan, Bertarung, Perjalanan Pahlawan",
+            imageRes = R.drawable.webtoon1
+        ),
+        UTP(
+            nama = "The Reborn Young Lord is an Assassin",
+            deskripsi = "The Reborn Young Lord is an Assassin",
+            imageRes = R.drawable.webtoon2
+        ),
+        UTP(
+            nama = "Killer Peter",
+            deskripsi = "Killer Peter",
+            imageRes = R.drawable.webtoon3
+        ),
+        UTP(
+            nama = "The Real Lesson",
+            deskripsi = "The Real Lesson",
+            imageRes = R.drawable.webtoon4
+        ),
+        UTP(
+            nama = "lookism",
+            deskripsi = "aku adalah jonggun",
+            imageRes = R.drawable.webtoon1
+        ),
+        UTP(
+            nama = "sololeveling",
+            deskripsi = "the underated",
+            imageRes = R.drawable.webtoon3
+        ),
+        UTP(
+            nama = "oslo",
+            deskripsi = "yntkts",
+            imageRes = R.drawable.webtoon7
+        )
     )
 }
